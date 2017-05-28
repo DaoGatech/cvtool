@@ -1,14 +1,17 @@
 {
-  "name": "flask-intro",
+  "name": "cvtool",
   "version": "1.0.0",
-  "description": "",
+  "description": "### Install",
   "main": "app.py",
   "dependencies": {
     "axios": "^0.15.3",
     "browserify": "^14.1.0",
     "gulp": "^3.9.1",
-    "react": "^0.14.8",
-    "react-dom": "^0.14.8"
+    "prop-types": "^15.5.10",
+    "react": "^0.14.9",
+    "react-bootstrap": "^0.31.0",
+    "react-dom": "^0.14.9",
+    "react-sidebar": "^2.3.2"
   },
   "devDependencies": {
     "babel-preset-es2015": "^6.24.0",
@@ -21,14 +24,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cgkaczenski/flask-intro.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cgkaczenski/flask-intro/issues"
-  },
-  "homepage": "https://github.com/cgkaczenski/flask-intro#readme"
+  "author": "Stephen Dao",
+  "license": "ISC"
 }

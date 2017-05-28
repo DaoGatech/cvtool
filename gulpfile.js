@@ -12,3 +12,8 @@ gulp.task('default', function () {
 	.pipe(source('app.js'))
 	.pipe(gulp.dest('./static/'));
 });
+
+// Watch listeners
+gulp.task('watch', function() {
+    gulp.watch('./templates/*.html', ['templates']);
+});
