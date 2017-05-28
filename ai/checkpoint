@@ -1,0 +1,2 @@
+model_checkpoint_path: "notMNIST_saved_model"
+all_model_checkpoint_paths: "notMNIST_saved_model"
